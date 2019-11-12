@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/orbs/static/css/main.b90fa872.chunk.css",
+    "main.js": "/orbs/static/js/main.9c5510d6.chunk.js",
+    "main.js.map": "/orbs/static/js/main.9c5510d6.chunk.js.map",
+    "runtime-main.js": "/orbs/static/js/runtime-main.ddf1290d.js",
+    "runtime-main.js.map": "/orbs/static/js/runtime-main.ddf1290d.js.map",
+    "static/js/2.e4169b44.chunk.js": "/orbs/static/js/2.e4169b44.chunk.js",
+    "static/js/2.e4169b44.chunk.js.map": "/orbs/static/js/2.e4169b44.chunk.js.map",
+    "index.html": "/orbs/index.html",
+    "precache-manifest.b644628f972a78a50c7eaf03d7d5d1fe.js": "/orbs/precache-manifest.b644628f972a78a50c7eaf03d7d5d1fe.js",
+    "service-worker.js": "/orbs/service-worker.js",
+    "static/css/main.b90fa872.chunk.css.map": "/orbs/static/css/main.b90fa872.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddf1290d.js",
+    "static/js/2.e4169b44.chunk.js",
+    "static/css/main.b90fa872.chunk.css",
+    "static/js/main.9c5510d6.chunk.js"
+  ]
+}
