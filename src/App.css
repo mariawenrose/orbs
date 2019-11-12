@@ -13,9 +13,6 @@
   color: #09d3ac;
 }
 
-.orb-wrapper {
-  /* border: 1px solid red; */
-}
 
 .blue-orb {
   width: 5em;
@@ -34,13 +31,13 @@
 
   50% {
     width: 10em;
-    height:10em;
+    height: 10em;
     box-shadow:
       0 0 140px 90px #0ff inset;
   }
 }
 
-.magenta-orb {
+.purple-orb {
   width: 5em;
   height: 5em;
   border-radius: 50%;
@@ -56,10 +53,10 @@
   }
 
   50% {
-    width: 8em;
-    height:8em;
+    width: 7em;
+    height: 7em;
     box-shadow:
-      0 0 140px 90px #f0f inset;
+      0 0 140px 90px rgb(174, 0, 255);
   }
 }
 
@@ -86,5 +83,96 @@
   }
 }
 
+.yellow-orb {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  animation-name: example-4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example-4 {
+  0% {
+    width:6em;
+    height: 6em
+  }
+
+  50% {
+    width: 4em;
+    height:4em;
+    box-shadow:
+      0 0 140px 90px rgb(253, 250, 54) inset;
+  }
+}
+
+.indigo-orb {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  animation-name: example-5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example-5 {
+  0% {
+    width:2em;
+    height: 2em
+  }
+
+  50% {
+    width: 6em;
+    height: 6em;
+    box-shadow:
+      0 0 140px 90px #000080;
+  }
+}
+
+.green-orb {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  animation-name: example-6;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example-6 {
+  0% {
+    width:3em;
+    height: 3em
+  }
+
+  50% {
+    width: 4.5em;
+    height: 4.5em;
+    box-shadow:
+      0 0 140px 90px #0bc93a inset;
+  }
+}
+
+.red-orb {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  animation-name: example-7;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example-7 {
+  0% {
+    width:4em;
+    height: 4em
+  }
+
+  50% {
+    width: 2em;
+    height: 2em;
+    box-shadow:
+      0 0 140px 90px #e62a2a inset;
+  }
+}
 
 
