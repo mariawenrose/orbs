@@ -1,11 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,3 +12,79 @@
 .App-link {
   color: #09d3ac;
 }
+
+.orb-wrapper {
+  /* border: 1px solid red; */
+}
+
+.blue-orb {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    width:5em;
+    height: 5em
+  }
+
+  50% {
+    width: 10em;
+    height:10em;
+    box-shadow:
+      0 0 140px 90px #0ff inset;
+  }
+}
+
+.magenta-orb {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  animation-name: example-2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example-2 {
+  0% {
+    width:5em;
+    height: 5em
+  }
+
+  50% {
+    width: 8em;
+    height:8em;
+    box-shadow:
+      0 0 140px 90px #f0f inset;
+  }
+}
+
+.orange-orb {
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  animation-name: example-3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example-3 {
+  0% {
+    width:7em;
+    height: 7em
+  }
+
+  50% {
+    width: 6em;
+    height:6em;
+    box-shadow:
+      0 0 140px 90px rgb(255, 102, 0) inset;
+  }
+}
+
+
+
