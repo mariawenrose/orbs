@@ -1,27 +1,24 @@
 import React from 'react';
 import './App.css';
 
-import Orb from './Orb.js'
+import Background from './Background'
+import Content from './Content'
 
 class App extends React.Component {
-  
+  state = {
+    display: true
+  }
+  handleButton = () => {
+    this.setState({
+      display: !this.state.display
+    })
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <Orb size="3" primary="purple" secondary="blue" delay="4" />
-          <Orb size="3" primary="purple" secondary="blue" delay="5" />
-          <Orb size="3" primary="purple" secondary="blue" delay="6" />
-          <Orb size="3" primary="orangered" secondary="yellow" delay="4.25" />
-          <Orb size="3" primary="orangered" secondary="yellow" delay="5.25" />
-          <Orb size="3" primary="orangered" secondary="yellow" delay="6.25" />
-          <Orb size="3" primary="red" secondary="hotpink" delay="4.5" />
-          <Orb size="3" primary="red" secondary="hotpink" delay="5.5" />
-          <Orb size="3" primary="red" secondary="hotpink" delay="6.5" />
-          <Orb size="3" primary="green" secondary="white" delay="4.75" />
-          <Orb size="3" primary="green" secondary="white" delay="5.75" />
-          <Orb size="3" primary="green" secondary="white" delay="6.75" />
-        </header>
+        <Background />
+        {this.state.display && <Content />}
+        <button onClick={this.handleButton} className="content-button">{this.state.display ? "Hide" : "Show"}</button>
       </div>
     );
   }
