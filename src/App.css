@@ -21,11 +21,11 @@
 .content-box {
   width: 80vw;
   height: 80vh;
-  background-color: black;
+  background-color: #0c0d0f;
   position: fixed;
   top: 10vh;
   left: 10vw;
-  opacity: .75;
+  opacity: .85;
   border-radius: 3em;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .content::-webkit-scrollbar-track {
-  background: black;
+  background: #0c0d0f;
   border-radius: .4vw;
 }
 
